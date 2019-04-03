@@ -3,5 +3,9 @@
 var $plugins =
 [
 {"name":"Community_Basic","status":true,"description":"Basic plugin for manipulating important parameters.","parameters":{"cacheLimit":"20","screenWidth":"816","screenHeight":"624","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off"}},
-{"name":"MadeWithMv","status":true,"description":"Show a Splash Screen \"Made with MV\" and/or a Custom Splash Screen before going to main screen.","parameters":{"Show Made With MV":"true","Made with MV Image":"MadeWithMv","Show Custom Splash":"false","Custom Image":"","Fade Out Time":"120","Fade In Time":"120","Wait Time":"160"}}
+{"name":"MadeWithMv","status":true,"description":"Show a Splash Screen \"Made with MV\" and/or a Custom Splash Screen before going to main screen.","parameters":{"Show Made With MV":"false","Made with MV Image":"MadeWithMv","Show Custom Splash":"false","Custom Image":"","Fade Out Time":"120","Fade In Time":"120","Wait Time":"160"}},
+{"name":"AltClassDisplay","status":true,"description":"Alternative Display of Class Name.","parameters":{}},
+{"name":"ConditionallyCore","status":true,"description":"ver1.07/条件付き○○のプラグインを使用するのに、必要となる条件をまとめたベースプラグインです。","parameters":{}},
+{"name":"PhaseSkillTrait","status":true,"description":"ver1.06/条件を満たすと戦闘開始時やターン開始時、ターン終了時等にスキルを発動する特徴を設定できるようになります。","parameters":{"Invoke Count":"1","Invoke Count Subject":"1","Sort Type":"2","Battle Start Skill Text":"\\C[10]_nameの先制スキルが発動した！","Turn Start Skill Text":"_nameのスタートフェイズスキルが発動した！","Turn End Skill Text":"_nameのエンドフェイズスキルが発動した！","Is Display Use Log":"false"}},
+{"name":"PassiveSkill","status":true,"description":"ver1.061/スキルに特徴を設定できるようにします。","parameters":{"Passive Skill Type ID":"3","Add Multi Order":"true"}}
 ];
