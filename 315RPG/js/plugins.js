@@ -20,5 +20,6 @@ var $plugins =
 {"name":"NoWeaponDisabled","status":true,"description":"Disable no weapon in equip screen.","parameters":{}},
 {"name":"TYA_EnemyHPGauge","status":true,"description":"敵ターゲットウィンドウにＨＰゲージを表示させます。\r\n特定の敵のゲージを非表示にすることもできます。","parameters":{}},
 {"name":"TMTpReset","status":true,"description":"戦闘開始時の初期ＴＰを調整します。","parameters":{"startTp":"0","startVariableTp":"0","startTpVariance":"0"}},
-{"name":"TMGreedShop","status":true,"description":"お金以外にアイテムも要求されるショップ機能を追加します。","parameters":{"materialWindowPosition":"0","materialWindowWidth":"408","buyWindowWidth":"456","buyWindowHeight":"0","materialMax":"5","fontRate":"0.8","greedCommand":"作る","needText":"必要なもの","showSellCommand":"true","showMaterialWindow":"true","overlaid":"true","backOpacity":"192","showMaterialFromNumberWindow":"true","showPrice":"true","seGreedBuy":"{\"name\":\"Shop1\",\"volume\":\"90\",\"pitch\":\"100\",\"pan\":\"0\"}"}}
+{"name":"TMMaxItems","status":true,"description":"アイテムの所持上限数を個別に設定します。","parameters":{"numberMaxDigits":"4","numberFontSize":"24","numberSeparator":"×"}},
+{"name":"TMGreedShop","status":true,"description":"お金以外にアイテムも要求されるショップ機能を追加します。","parameters":{"materialWindowPosition":"0","materialWindowWidth":"408","buyWindowWidth":"456","buyWindowHeight":"0","materialMax":"5","fontRate":"0.8","greedCommand":"合成する","needText":"必要なもの","showSellCommand":"true","showMaterialWindow":"true","overlaid":"true","backOpacity":"192","showMaterialFromNumberWindow":"true","showPrice":"true","seGreedBuy":"{\"name\":\"Shop1\",\"volume\":\"90\",\"pitch\":\"100\",\"pan\":\"0\"}"}}
 ];
