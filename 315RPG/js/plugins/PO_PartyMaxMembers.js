@@ -15,6 +15,8 @@ var PO_Manager = PO_Manager || {};
  *     Change Max Member Size of Party
  */
 
+ var parameters = PluginManager.parameters('PO_PartyMaxMembers');
+
 (function() {
   'use strict';
 

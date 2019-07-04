@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":1,"list":[{"code":101,"indent":0,"parameters":["",0,0,2]},{"code":401,"indent":0,"parameters":["漣："]},{"code":401,"indent":0,"parameters":["啊──麻煩死啦！"]},{"code":101,"indent":0,"parameters":["",0,0,2]},{"code":401,"indent":0,"parameters":["Takeru："]},{"code":401,"indent":0,"parameters":["這傢伙在說什麼啊……"]},{"code":101,"indent":0,"parameters":["",0,0,2]},{"code":401,"indent":0,"parameters":["道流："]},{"code":401,"indent":0,"parameters":["是說既然已經空了，那麼拆掉當成材料應該也沒關係吧？"]},{"code":101,"indent":0,"parameters":["",0,0,2]},{"code":401,"indent":0,"parameters":["英雄："]},{"code":401,"indent":0,"parameters":["嗯──道流說的也有道理……"]},{"code":401,"indent":0,"parameters":["把這些材料拿回去給瑛流的話，說不定他會很高興的。"]},{"code":121,"indent":0,"parameters":[1,1,0]},{"code":0,"indent":0,"parameters":[]}],"name":"寶箱拆除對話","switchId":1,"trigger":0},
 {"id":2,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
 {"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
