@@ -17,7 +17,7 @@
  */
 
  (function() {
-    var _Window_Base_create = Window_Base.prototype.create;
+    //var _Window_Base_create = Window_Base.prototype.create;
     Window_Base.prototype.drawActorClass = function(actor, x, y, width) {
         // width = width || 168;
         // this.resetTextColor();
