@@ -65,7 +65,7 @@ var PO_Manager = PO_Manager || {};
         this.newPage(this._textState);
         this.updatePlacement();
         this.updateBackground();
-        console.log($gameTemp.isWindowMessageWidthFull());
+        //console.log($gameTemp.isWindowMessageWidthFull());
         if (!$gameTemp.isWindowMessageWidthFull()) {
             this.x = (Graphics.width - ori_Window_Width) / 2;
             this.width = ori_Window_Width;
@@ -86,7 +86,7 @@ var PO_Manager = PO_Manager || {};
     //
     var _Window_ChoiceList_Prototype_updatePlacement = Window_ChoiceList.prototype.updatePlacement;
     Window_ChoiceList.prototype.updatePlacement = function() {
-        console.log($gameTemp.isWindowMessageWidthFull());
+        //console.log($gameTemp.isWindowMessageWidthFull());
         if ($gameTemp.isWindowMessageWidthFull()) {
             _Window_ChoiceList_Prototype_updatePlacement.call(this);
         } else {
