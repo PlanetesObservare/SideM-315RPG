@@ -1,0 +1,78 @@
+[
+  null,
+  {
+    "name": "Jupiter",
+    "member": [1, 2, 3],
+    "production": "315"
+  },
+  {
+    "name": "DRAMATIC STARS",
+    "member": [4, 5, 6],
+    "production": "315"
+  },
+  {
+    "name": "Altessimo",
+    "member": [7, 8],
+    "production": "315"
+  },
+  {
+    "name": "Beit",
+    "member": [9, 10, 11],
+    "production": "315"
+  },
+  {
+    "name": "W",
+    "member": [12, 13],
+    "production": "315"
+  },
+  {
+    "name": "FRAME",
+    "member": [14, 15, 16],
+    "production": "315"
+  },
+  {
+    "name": "彩",
+    "member": [17, 18, 19],
+    "production": "315"
+  },
+  {
+    "name": "High×Joker",
+    "member": [20, 21, 22, 23, 24],
+    "production": "315"
+  },
+  {
+    "name": "神速一魂",
+    "member": [25, 26],
+    "production": "315"
+  },
+  {
+    "name": "Café Parade",
+    "member": [27, 28, 29, 30, 31],
+    "production": "315"
+  },
+  {
+    "name": "もふもふえん",
+    "member": [32, 33, 34],
+    "production": "315"
+  },
+  {
+    "name": "S.E.M",
+    "member": [35, 36, 37],
+    "production": "315"
+  },
+  {
+    "name": "THE 虎牙道",
+    "member": [38, 39, 40],
+    "production": "315"
+  },
+  {
+    "name": "F-LAGS",
+    "member": [41, 42, 43],
+    "production": "315"
+  },
+  {
+    "name": "Legenders",
+    "member": [44, 45, 46],
+    "production": "315"
+  }
+]
