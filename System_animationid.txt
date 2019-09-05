@@ -1,0 +1,11 @@
+拳頭 (武鬥家)
+<attackAnimationId: 1>
+
+劍 (劍士、魔法劍士、騎士)
+<attackAnimationId: 6>
+
+光彈 (魔術師、僧侶、召喚士)
+<attackAnimationId: 128>
+
+弓 (獵人)
+<attackAnimationId: 11>
