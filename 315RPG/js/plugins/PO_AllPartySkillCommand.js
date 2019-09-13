@@ -64,9 +64,17 @@
         this.addCommand(TextManager.escape, 'escape', BattleManager.canEscape());
     };
 
-    //var _scene_batle_prototype_createPartyCommandWindow = Scene_Battle.prototype.createPartyCommandWindow;
+    var _window_skillList_prototype_drawSkillCost = Window_SkillList.prototype.drawSkillCost
+    Window_SkillList.prototype.drawSkillCost = function(skill, x, y, width) {
+        if (PO_AllPartySkillCommand.isOnPartySkillCommand) {
+            this.changeTextColor(this.mpCostColor());
+            this.drawText(this._actor.skillMpCost(skill) / param_command_skillPerMP, x, y, width, 'right');
+        } else {
+            _window_skillList_prototype_drawSkillCost.apply(this, arguments);
+        }
+    }
+
     Scene_Battle.prototype.createPartyCommandWindow = function() {
-        //_scene_batle_prototype_createPartyCommandWindow.call(this);
         this._partyCommandWindow = new Window_PartyCommand();
         this._partyCommandWindow.setHandler('fight',  this.commandFight.bind(this));
 
@@ -123,39 +131,4 @@
             this.clearActor();
         }
     }
-
-    /*
-    var _scene_battle_prototype_onSkillOk = Scene_Battle.prototype.onSkillOk;
-    Scene_Battle.prototype.onSkillOk = function() {
-        if (PO_AllPartySkillCommand.isOnPartySkillCommand) {
-            var skill = this._skillWindow.item();
-            var action = new Game_Action();
-            action.setSubject($gameActors.actor(param_characterID));
-            action.setSkill(skill.id);
-            //BattleManager.actor().setLastBattleSkill(skill);
-            PO_AllPartySkillCommand.executingAction = action;
-            this.onSelectAction();
-        } else {
-            _scene_battle_prototype_onSkillOk.call(this)
-        }
-    };
-
-    var _scene_battle_prototype_onSelectAction = Scene_Battle.prototype.onSelectAction;
-    Scene_Battle.prototype.onSelectAction = function() {
-        if (PO_AllPartySkillCommand.isOnPartySkillCommand) {
-            var action = PO_AllPartySkillCommand.executingAction;
-            this._skillWindow.hide();
-            this._itemWindow.hide();
-            if (!action.needsSelection()) {
-                this.selectNextCommand();
-            } else if (action.isForOpponent()) {
-                this.selectEnemySelection();
-            } else {
-                this.selectActorSelection();
-            }
-        } else {
-            _scene_battle_prototype_onSelectAction.call(this)
-        }
-    }
-    */
 })()

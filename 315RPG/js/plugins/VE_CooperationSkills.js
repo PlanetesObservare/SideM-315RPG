@@ -1049,10 +1049,10 @@ VictorEngine.CooperationSkills = VictorEngine.CooperationSkills || {};
     VictorEngine.CooperationSkills.onSelectAction = Scene_Battle.prototype.onSelectAction;
     Scene_Battle.prototype.onSelectAction = function() {
         var action = BattleManager.inputtingAction();
-        VictorEngine.CooperationSkills.onSelectAction.call(this);
         if (!action.needsSelection()) {
             this.setUniteSkill();
         }
+        VictorEngine.CooperationSkills.onSelectAction.call(this);
     };
 
     VictorEngine.CooperationSkills.onActorOk = Scene_Battle.prototype.onActorOk;
@@ -1201,10 +1201,10 @@ VictorEngine.CooperationSkills = VictorEngine.CooperationSkills || {};
     };
 
     Window_BattleLog.prototype.performActionEndCooperation = function(subject, action) {
-        var object = this;
+        //var object = this;
         BattleManager.allBattleMembers().forEach(function(member) {
             if (member.cooperationLeader(action.item()) === subject) {
-                VictorEngine.CooperationSkills.performActionEndWindowBattleLog.call(object, member, action);
+                //VictorEngine.CooperationSkills.performActionEndWindowBattleLog.call(object, member, action);
             }
         })
     };
